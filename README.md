@@ -4,7 +4,7 @@ Collateral Partners tested whether Claude Code can speed up pitch-deck design. T
 
 This repo holds everything the test produced: five deck versions as Slides-artifact source, the image and vector assets, the source material, and the helper scripts.
 
-Start with **[HANDOFF.md](HANDOFF.md)**. It covers the decisions, the open items and how to continue.
+Start with **[HANDOFF.md](HANDOFF.md)**. It covers the decisions, the open items and how to continue. For a short visual summary, see the [process page](https://claude.ai/artifact/7k8P9B2jUstDG5qa3wQEoE).
 
 ## Live decks
 
