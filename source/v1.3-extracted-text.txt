@@ -1,0 +1,675 @@
+
+=== 1
+[0.8,3.0] Family Capital. / At Scale.
+[0.8,5.3] Real estate investment management built intentionally for the nation's leading families.
+[0.8,6.4] Company Overview
+[2.8,6.4] November 2026
+[0.8,6.9] REALM (Real Estate and Alternative Management, LP)   |   www.realmlp.com
+
+=== 2
+[5.1,1.0] 01
+[5.7,1.0] Firm Overview
+[8.2,1.0] 4
+[9.1,1.0] 08
+[9.7,1.0] How REALM Works
+[12.2,1.0] 17
+[5.1,1.8] 02
+[5.7,1.8] The Opportunity
+[8.2,1.8] 5
+[9.1,1.8] 09
+[9.7,1.8] The REALM Advantage
+[12.2,1.8] 19
+[0.7,2.5] Table of Contents
+[5.1,2.6] 03
+[5.7,2.6] REALM Serves Families First
+[8.2,2.6] 6
+[9.1,2.6] 10
+[9.7,2.6] Proof Points
+[12.2,2.6] 21
+[5.1,3.3] 04
+[5.7,3.3] Why Now
+[8.2,3.3] 7
+[9.1,3.3] 11
+[9.7,3.3] Case Studies
+[12.2,3.3] 22
+[0.7,4.0] Family Capital. At Scale.
+[5.1,4.1] 05
+[5.7,4.1] What Family Capital Means
+[8.2,4.1] 8
+[9.1,4.1] 12
+[9.7,4.1] The Founding Story
+[12.2,4.1] 29
+[5.1,4.9] 06
+[5.7,4.9] The REALM Formula
+[8.2,4.9] 10
+[9.1,4.9] 13
+[9.7,4.9] Leadership Bios
+[12.2,4.9] 30
+[5.1,5.7] 07
+[5.7,5.7] What REALM Does
+[8.2,5.7] 11
+
+=== 3
+[0.9,1.6] FAMILY CAPITAL
+[0.9,2.4] "The values, knowledge, resources, and relationships a family has built to provide enduring legacy across generations."
+
+=== 4
+[0.7,0.3] 01
+[0.7,0.5] Firm Overview
+[9.6,0.7] TRACK RECORD
+[9.6,1.0] +$6 billion
+[0.7,1.2] A multi-strategy real estate investment manager built intentionally for Family Capital.
+[9.6,1.5] of completed real estate transactions by REALM's principals and partners¹
+[0.7,2.0] FAMILY CAPITAL. AT SCALE.
+[9.6,2.1] FAMILIES
+[0.7,2.4] REALM gives the nation's leading families the strength of Family Capital at scale, with each investment built around what the family values and each relationship built to last across generations.
+[9.6,2.4] +100 families
+[9.6,2.9] Most of REALM's families arrived through an introduction from an existing investor (88%, early 2026).
+[1.7,3.5] Families
+[5.6,3.5] How REALM serves
+[9.6,3.5] PORTFOLIO
+[9.6,3.7] 43
+[1.7,3.9] The nation's most successful families, investing through single-family offices, multi-family offices, and directly as principals.
+[5.6,3.9] REALM gives each family Access, Advice, and Actionable Intel: proprietary investment opportunities, guidance on the family's real estate, and ground-level market insight drawn from REALM's investments, operating partners, and families.
+[9.6,4.2] active investments with a combined fair market value of nearly $600 million (Q2 2026).
+[9.6,4.9] LEVERAGE
+[9.6,5.1] 30%
+[1.7,5.2] Strategies
+[5.6,5.2] Process
+[1.7,5.5] Strategies across the risk-return spectrum and throughout the capital stack, from durable, tax-efficient income to complex, distressed, and forced-sale opportunities, with credit, GP, and secondaries strategies to follow.
+[5.6,5.5] Each relationship follows five steps. REALM understands the family's portfolio, tax position, and goals, works with the family to construct its real estate allocation, selects each investment through the proprietary REALM Factor Framework, manages each investment through its full lifecycle, and shares what REALM learns with its families through Realm Roundtables, webinars, and white papers.
+[9.6,5.6] A portfolio-wide loan-to-value of 30% (Q2 2026).
+[9.3,6.2] ¹ Track record of REALM's principals and partners, including transactions completed at prior entities before REALM's founding in 2019.
+
+=== 5
+[0.7,0.3] 02
+[0.7,0.5] The Opportunity
+[0.7,1.8] Families invest with priorities of their own:
+[5.2,1.8] Conventional real estate investment structures, designed by and for institutional investors, are opaque, rigid, and transactional, and leave those priorities unserved.
+[9.1,1.8] The opportunity is a real estate investment manager built intentionally for what families value:
+[1.4,3.0] Tax efficiency
+[9.6,3.5] Alignment
+[1.4,3.8] A horizon that spans generations
+[9.6,4.2] Transparency
+[1.4,4.6] Control over what they own
+[9.6,4.9] Flexibility
+[1.4,5.4] Relationships that last
+[9.6,5.6] Above all, long-term relationships
+
+=== 6
+[0.7,0.3] 03
+[0.7,0.5] REALM Serves Families First
+[0.7,1.1] Each relationship starts from the family's own position: its holdings, its tax position, and the generation that will inherit.
+[0.8,3.1] Founder-led families
+[3.2,3.1] Single-family offices
+[5.6,3.1] Multi-generational families
+[8.0,3.1] Families after a liquidity event
+[10.4,3.1] Multi-family offices
+[0.8,3.6] Principals who built their wealth through an operating business or real estate and want real estate that compounds on their terms.
+[3.2,3.6] Offices with lean teams and a generalist chief investment officer that need a partner to source, structure, and manage the real estate they cannot staff for.
+[5.6,3.6] Families preparing to pass wealth, and real estate in particular, to heirs who need to understand what they will own.
+[8.0,3.6] Families placing proceeds from the sale of a business or a property, often against an exchange deadline or a tax event.
+[10.4,3.6] Offices serving several families that want a real estate specialist built around the same priorities they serve.
+[0.7,5.0] BEYOND THE INVESTOR
+[0.7,5.4] Operating partners
+[4.7,5.4] Advisers
+[8.7,5.4] The REALM team
+[0.7,5.7] The local operators REALM invests with, who bring opportunities and expertise and return for the next deal.
+[4.7,5.7] The accountants, attorneys, and wealth managers who introduce families and rely on REALM to put those families first.
+[8.7,5.7] Analysts, family office advisers, and investment professionals, several introduced by REALM's own investors, who carry the relationship day to day.
+
+=== 7
+[0.7,0.3] 04
+[5.0,0.4] Families are taking direct control of how their capital is invested in real estate.
+[0.7,0.5] Why Now
+[0.8,1.5] 01
+[2.6,1.5] 02
+[4.3,1.5] 03
+[6.0,1.5] 04
+[7.8,1.5] 05
+[9.5,1.5] 06
+[11.2,1.5] 07
+[0.8,1.8] Structures designed for institutions
+[2.6,1.8] Family offices too lean to specialize
+[4.3,1.8] Networks limited to one family
+[6.0,1.8] A widening middle-market gap
+[7.8,1.8] A generation inheriting real estate
+[9.5,1.8] Dislocation in commercial real estate
+[11.2,1.8] Tax treatment that rewards direct ownership
+[0.8,2.5] Conventional real estate investment structures were designed by and for institutional investors, and families who invest through them have found the terms opaque, rigid, and transactional.
+[2.6,2.5] More families are forming offices of their own, typically lean ones led by a chief investment officer who covers every asset class and has little room to specialize in any one of them.
+[4.3,2.5] Listings and general market data have become a commodity, so the edge has moved to off-market opportunities and ground-level insight that travel through relationships.
+[6.0,2.5] Transactions too large for individual investors and too small for institutional funds draw few bidders, and that band has widened as institutional funds have grown.
+[7.8,2.5] Real estate assembled over a lifetime is passing to heirs who often have little experience owning or managing buildings, at a moment when the advisers closest to a sale are paid to lease or sell.
+[9.5,2.5] Rate increases since 2022, maturing debt, and shifts in office demand have broken prices in parts of the market.
+[11.2,2.5] Under current law, depreciation, cost segregation, and 1031 exchanges let direct owners of real estate defer tax and compound wealth across generations.
+[0.7,4.3] WHAT IT MEANS FOR FAMILIES
+[0.7,4.8] Families now seek structures built around their tax position, their holding period objectives, and their wish to choose what they own.
+[2.4,4.8] Real estate rewards local knowledge, proprietary sourcing, and hands-on management, the specialist capabilities a lean office would need a dedicated team to build.
+[4.2,4.8] A family investing on its own sees the opportunities its own relationships bring and compares notes with the peers the family already knows, and a network of like-minded families widens both.
+[5.9,4.8] Families who commit equity together can compete in that band and win on certainty of execution.
+[7.6,4.8] Heirs need a partner who can explain what they own, what to keep, and what to exchange, so the knowledge behind each asset passes along with the asset.
+[9.4,4.8] Forced sellers and overcorrected valuations create entry points for patient capital, and REALM's families can act while lenders and institutional buyers wait.
+[11.1,4.8] Those benefits depend on a structure built around the family's tax position.
+
+=== 8
+[0.7,0.3] 05
+[0.7,0.6] What Family Capital Means
+[3.3,2.4] Values
+[5.7,2.4] Knowledge
+[8.1,2.4] Resources
+[10.5,2.4] Relationships
+[0.7,2.5] "The values, knowledge, resources, and relationships a family has built to provide enduring legacy across generations."
+[3.3,2.8] What the family stands for
+[5.7,2.8] What the family has learned
+[8.1,2.8] What the family has built
+[10.5,2.8] Whom the family knows
+[3.3,3.3] The principles a family holds and expects of anyone who invests on the family's behalf. Values decide which assets a family will own, which partners a family will work with, and what passes to the next generation.
+[5.7,3.3] The judgment a family has earned building a business, owning property, and investing over decades. Shared with peer families and taught to heirs, that knowledge compounds alongside the family's capital.
+[8.1,3.3] The capital itself, built through an operating business, real estate, or investing, and held with an eye to tax and to the generations that follow. Resources give a family the freedom to invest on its own timeline.
+[10.5,3.3] The operators, brokers, advisers, and peer families a family has gathered over generations. Those relationships bring opportunities to the family before a marketed sale.
+
+=== 9
+[5.3,0.4] PRIORITY
+[7.3,0.4] FOR A FAMILY
+[9.9,0.4] HOW REALM ANSWERS
+[5.3,0.7] A patient, long-term horizon
+[7.3,0.7] Families invest for the generations that follow, well beyond any single hold period.
+[9.9,0.7] Hold periods shaped by each family's objectives and each investment's business plan.
+[5.3,1.4] Preservation before growth
+[7.3,1.4] Families protect what they have built before they reach for income and growth.
+[9.9,1.4] Underwriting through the REALM Factor Framework and asset-level diligence before each commitment.
+[0.7,2.0] 05    WHAT FAMILY CAPITAL MEANS
+[5.3,2.0] Tax sensitivity
+[7.3,2.0] Families measure every return after tax, across trusts, entities, and generations.
+[9.9,2.0] Direct ownership, with depreciation, cost segregation, and 1031 exchanges structured around the family's tax position.
+[0.7,2.3] What Makes Family Capital Different
+[5.3,2.7] Control
+[7.3,2.7] Families want a say in what they own and how their capital is put to work.
+[9.9,2.7] Strategies across the risk-return spectrum, with each family choosing its strategies and its level of participation.
+[5.3,3.4] Transparency and clear reporting
+[7.3,3.4] Families expect to see how their capital is performing, in plain terms.
+[9.9,3.4] Clear, consistent reporting on each investment, with candid updates when plans change.
+[5.3,4.1] Relationships first
+[7.3,4.1] Families invest with people they know, often on the word of a family they respect.
+[9.9,4.1] Direct access to REALM's team, and a network of families built largely through introductions.
+[0.7,4.3] The priorities that set Family Capital apart from institutional capital, in terms families recognize, and how REALM answers each one.
+[5.3,4.8] Legacy beyond money
+[7.3,4.8] Families judge success by what passes to the next generation, in values as well as capital.
+[9.9,4.8] A place for the next generation in the family's real estate decisions, and gatherings that bring generations together.
+[5.3,5.5] Liquidity that matters
+[7.3,5.5] Families want to know when and how their capital returns.
+[9.9,5.5] Investments chosen with each family's liquidity needs in view, and exits timed to the market.
+[0.7,5.7] Real estate investment for families should begin from those priorities and hold to them through every decision.
+[5.3,6.1] Customization
+[7.3,6.1] Every family's holdings, tax position, and goals are its own.
+[9.9,6.1] A real estate allocation constructed with each family from strategies across the risk-return spectrum.
+
+=== 10
+[0.7,0.4] 06
+[8.2,0.4] THE THREE CS
+[0.7,0.6] The REALM Formula
+[9.8,1.3] Character
+[0.7,1.6] WHAT FAMILIES RECEIVE
+[4.2,1.6] HOW REALM DELIVERS
+[9.8,1.6] Doing the right thing, even when no one is watching.
+[1.1,2.1] Access
+[4.5,2.1] Alignment
+[0.7,2.5] Proprietary investment opportunities across strategies that span the risk-return spectrum, sourced through operating partners, brokers, and REALM's families.
+[4.2,2.5] Investments and structures built around each family's portfolio, tax position, holding period objectives, and long-term goals.
+[10.0,3.0] Trust
+[1.1,3.3] Advice
+[4.5,3.3] Acumen
+[0.7,3.6] Guidance on the real estate a family owns, the opportunities the family is weighing, and the structures that suit the family, offered as part of the relationship.
+[4.2,3.6] Decades of experience managing capital over multiple cycles, applied through the REALM Factor Framework and asset-level diligence.
+[8.5,3.6] Competence
+[11.0,3.6] Consistency
+[8.5,3.9] Being excellent investors of capital, the condition every other form of trust depends on.
+[11.0,3.9] One standard on every deal, report, and relationship.
+[1.1,4.4] Actionable Intel
+[4.5,4.4] Agility
+[0.7,4.7] Ground-level market insight from REALM's investments, operating partners, and families, shared through Realm Roundtables, webinars, and white papers.
+[4.2,4.7] Flexibility across strategies, structures, and the capital stack to meet each family's needs and act on market opportunities.
+[4.5,5.5] Attentiveness
+[8.2,5.7] The Three Cs are how REALM defines trust, the core of the REALM Formula.
+[4.2,5.9] Personal attention to each family, with candid communication on performance, emerging issues, and the decisions ahead.
+
+=== 11
+[0.7,0.5] 07
+[8.8,0.6] WHAT FAMILIES RECEIVE
+[0.7,0.8] What REALM Does
+[8.8,1.2] 1
+[9.7,1.2] Access
+[9.7,1.6] Investment strategies
+[8.8,2.2] 2
+[9.7,2.3] Advice
+[5.1,2.4] 5
+[6.7,2.4] 1
+[0.7,2.5] REALM works with every family to construct its investment strategy, then manages each investment through its full lifecycle. The relationship centers on the three things families receive through the REALM Formula, Access, Advice, and Actionable Intel, with structuring and lifecycle management built around them. Families engage in one area or several, and the relationship grows as their needs change.
+[9.7,2.7] The family's real estate
+[8.8,3.3] 3
+[5.3,3.4] The family
+[9.7,3.4] Actionable Intel
+[9.7,3.8] Insight and the REALM network
+[4.6,3.9] 4
+[7.2,3.9] 2
+[8.8,4.4] 4
+[9.7,4.6] Structuring
+[5.9,4.8] 3
+[8.8,5.5] 5
+[9.7,5.7] Lifecycle Management
+
+=== 12
+[0.7,0.4] 07    WHAT REALM DOES
+[3.0,0.4] 1  Access
+[4.2,0.4] 2  Advice
+[5.4,0.4] 3  Actionable Intel
+[7.4,0.4] 4  Structuring
+[9.0,0.4] 5  Lifecycle Management
+[0.8,0.9] 1
+[1.6,0.9] Access: Investment Strategies
+[0.7,1.6] REALM manages a suite of real estate strategies that share real estate as the underlying asset and differ in risk, return, and holding period.
+[0.7,2.2] STRATEGY
+[3.7,2.2] TARGET
+[7.5,2.2] STRUCTURE AND HOLD
+[9.5,2.2] RISK
+[11.1,2.2] STATUS
+[0.9,2.5] Tactical Opportunities
+[3.7,2.5] Complex, distressed, and forced-sale situations
+[7.5,2.5] Series vehicle, up to 5 years
+[11.2,2.5] Live
+[9.5,2.6] High
+[0.9,3.1] Diversified Income
+[3.7,3.1] Durable, tax-efficient income from direct, net-lease, and off-market acquisitions
+[7.5,3.1] Evergreen, 10+ years
+[11.2,3.1] In development, targeted for early 2027
+[9.5,3.2] Low
+[0.9,3.7] Tax-Deferred Exchange
+[3.7,3.7] Homes for 1031 and 721 exchange capital
+[7.5,3.7] To be set
+[11.2,3.7] 1031 live through tenancy-in-common interests. 721 planned
+[9.5,3.8] Low
+[0.9,4.3] Opportunistic Credit
+[3.7,4.3] Distressed and non-performing loans, whole or structured
+[7.5,4.3] Up to 3 years
+[9.5,4.3] High to moderate
+[11.2,4.3] Planned, 2027, market permitting
+[0.9,4.9] Structured Credit
+[3.7,4.9] Bespoke senior and subordinated loan origination
+[7.5,4.9] Up to 3 years
+[9.5,4.9] Moderate to low
+[11.2,4.9] Planned
+[3.7,5.4] Programmatic co-GP positions and GP stakes
+[7.5,5.4] Up to 7 years
+[11.2,5.4] Planned
+[0.9,5.5] GP Opportunities
+[9.5,5.5] Moderate to high
+[3.7,6.0] Interests in existing real estate partnerships
+[7.5,6.0] Up to 7 years
+[11.2,6.0] Planned
+[0.9,6.1] Secondaries
+[9.5,6.1] Moderate
+
+=== 13
+[0.7,0.4] 07    WHAT REALM DOES
+[3.0,0.4] 1  Access
+[4.2,0.4] 2  Advice
+[5.4,0.4] 3  Actionable Intel
+[7.4,0.4] 4  Structuring
+[9.0,0.4] 5  Lifecycle Management
+[0.8,0.9] 2
+[1.6,0.9] Advice: The Family's Real Estate
+[0.7,1.6] REALM works with each family to construct its real estate strategy, alongside the chief investment officer and the family's other advisers.
+[5.5,2.4] The role of real estate
+[8.0,2.4] What real estate should do in the family's portfolio, whether durable income, diversification away from a concentrated equity position, tax deferral, or growth, and the mix of strategies, holding periods, and structures that delivers that role.
+[5.5,3.2] Portfolio review
+[8.0,3.2] An asset-by-asset view of the real estate the family already owns, with a recommendation on what to hold, sell, or exchange.
+[5.5,4.1] Exchange planning
+[8.0,4.1] Timing a sale, identifying replacement property within the exchange deadlines, and modeling what a chain of exchanges adds over time.
+[1.0,4.7] The advice comes from an investor that owns and manages real estate in the same markets, and a family can ask REALM to review its holdings with no transaction attached.
+[5.5,5.0] A second opinion
+[8.0,5.0] REALM underwrites an opportunity the family has been shown or has sourced, with the same process REALM applies to its own investments.
+[5.5,5.8] Inherited portfolios
+[8.0,5.8] A review for heirs taking on the family's buildings, with a plan for each asset.
+
+=== 14
+[0.7,0.4] 07    WHAT REALM DOES
+[3.0,0.4] 1  Access
+[4.2,0.4] 2  Advice
+[5.4,0.4] 3  Actionable Intel
+[7.4,0.4] 4  Structuring
+[9.0,0.4] 5  Lifecycle Management
+[0.8,0.9] 3
+[1.6,0.9] Actionable Intel: Insight and the REALM Network
+[0.7,1.6] REALM brings its investor families, operating partners, and advisers together, and shares what REALM learns from its own investments across markets.
+[0.7,2.3] Webinars and REALM Perspectives
+[9.0,2.3] Introductions
+[0.7,2.7] REALM's read on markets and property types, shared through webinars and white papers.
+[9.0,2.7] To families who share a market or an interest, and to the operating partners, brokers, and advisers REALM works with.
+[5.8,3.2] Insight and the REALM network
+[0.7,4.4] The member brief
+[9.0,4.4] Realm Roundtables
+[0.7,4.8] A regular brief on market signals and portfolio learnings, in development.
+[9.0,4.8] Private gatherings, often hosted in a family's home, where families compare notes candidly, including multi-generational sessions.
+[1.0,5.5] The insight comes from owners and operators in each market. REALM gathers what its investments, operating partners, and families see on the ground, ahead of published reports, and turns that knowledge into briefings families can act on.
+
+=== 15
+[0.7,0.4] 07    WHAT REALM DOES
+[3.0,0.4] 1  Access
+[4.2,0.4] 2  Advice
+[5.4,0.4] 3  Actionable Intel
+[7.4,0.4] 4  Structuring
+[9.0,0.4] 5  Lifecycle Management
+[0.8,0.9] 4
+[1.6,0.9] Structuring
+[0.7,1.6] REALM builds each family's participation around its tax position, its wish for control, and its need for liquidity.
+[5.3,2.2] The family
+[0.8,3.6] REALM Direct
+[3.8,3.6] The series vehicle
+[6.8,3.6] Exchanges
+[9.8,3.6] Separate accounts and programmatic joint ventures
+[0.9,4.0] Investment deal by deal, for families who want to choose each asset.
+[3.9,4.0] A programmatic commitment in which members see every deal and may decline up to three.
+[6.9,4.0] 1031 capital placed through tenancy-in-common interests in REALM investments, with 721 exchanges planned.
+[9.9,4.0] Custom structures for larger commitments and single-strategy partnerships with operating partners, with separate accounts in development.
+[1.0,4.7] REALM investments
+[3.9,4.7] Tax-aware ownership.  Direct ownership that allows depreciation, cost segregation, and serial exchanges under current law.
+[1.0,5.5] Families choose from a range of strategies and, within each, a range of structures, from a single deal to a programmatic commitment or an exchange, all within one relationship.
+
+=== 16
+[0.7,0.4] 07    WHAT REALM DOES
+[3.0,0.4] 1  Access
+[4.2,0.4] 2  Advice
+[5.4,0.4] 3  Actionable Intel
+[7.4,0.4] 4  Structuring
+[9.0,0.4] 5  Lifecycle Management
+[0.8,0.9] 5
+[1.6,0.9] Lifecycle Management
+[0.7,1.6] REALM manages each investment from acquisition to exit as a hands-on owner, alongside its operating partners.
+[0.7,2.4] One team is accountable for each investment from acquisition to exit, so decisions on leasing, financing, and the timing of a sale are made with the family's objectives and tax position in view.
+[1.3,4.1] Asset management
+[5.6,4.1] Reporting
+[9.9,4.1] Exit and reinvestment
+[1.3,4.5] REALM oversees each business plan with its operating partners, including leasing, capital projects, and financing, and acts early when an asset falls behind.
+[5.6,4.5] Clear reporting on each asset against its original business plan, consolidated across the family's entities, with a dedicated update and a stated plan for any asset that falls behind.
+[9.9,4.5] Each sale timed to the market and planned around the family's tax position, including exchanges into the next REALM investment.
+
+=== 17
+[0.7,0.3] 08
+[0.7,0.5] How REALM Works
+[0.7,1.3] Each relationship follows the same arc: REALM understands the family, constructs its strategy, selects each investment through the REALM Factor Framework, manages each investment through its full lifecycle, and shares what REALM learns with its families.
+[0.8,3.7] 1  Understand
+[3.2,3.7] 2  Construct
+[5.6,3.7] 3  Select
+[8.0,3.7] 4  Manage
+[10.4,3.7] 5  Share
+[0.8,4.3] The relationship usually starts with an introduction from another family. REALM then learns the family's portfolio, tax position, holding-period objectives, and goals for the next generation, and that understanding becomes the brief for every recommendation that follows.
+[3.2,4.3] REALM and the family build the strategy together: the role real estate plays in the portfolio, the strategies that fit, and the structures that suit the family's tax position. The strategy serves as the foundation for every investment that follows.
+[5.6,4.3] Opportunities come off-market from operating partners, brokers, and the families themselves, and pass through the REALM Factor Framework and asset-level diligence. Opportunities that clear both proceed with an asset-level business plan.
+[8.0,4.3] REALM and its operating partners execute the business plan, report each asset against its original underwriting, and time each exit to the market and to the family's tax position.
+[10.4,4.3] What REALM learns from its investments, partners, and families returns to its families through roundtables, webinars, and white papers, and informs the next allocation and the next introduction.
+
+=== 18
+[0.7,0.3] 08    HOW REALM WORKS
+[0.7,0.5] The REALM Factor Framework
+[0.7,1.2] REALM screens markets top-down through a proprietary seven-factor framework.
+[4.9,1.9] WHAT THE FACTOR READS
+[8.8,1.9] QUESTIONS REALM ASKS
+[0.7,2.2] 1. Dislocation
+[4.9,2.2] A sharp break in value from a loss of demand, oversupply, or a shift in capital markets.
+[8.8,2.2] What is causing the dislocation? Is the dislocation structural or temporary? How severe is the break, and what would correct the market?
+[0.8,2.9] 2. Demand
+[4.9,2.9] Real estate is a secondary industry: its value comes from demand in the primary industries that occupy the space.
+[8.8,2.9] Where is primary-industry demand growing? Is demand accelerating or slowing, what drives the growth, and how durable is that demand?
+[1.0,3.5] 3. Supply
+[4.9,3.5] Supply of physical space often follows liquidity more than fundamental demand.
+[8.8,3.5] How much supply exists, and how much is available or obsolete? How much is coming, and when? Is demand or liquidity driving new supply?
+[1.1,4.1] 4. Capital markets
+[4.9,4.1] Real estate is a levered asset class, highly sensitive to liquidity and interest rates.
+[8.8,4.1] Which way are rates and liquidity moving, and how fast? When does the market's outstanding debt mature? Will maturities or tight liquidity force discounted sales or recapitalizations?
+[1.3,4.8] 5. Timing
+[4.9,4.8] Real estate is illiquid, so market prices can lead or lag a dislocation.
+[8.8,4.8] Is the dislocation early, middle, or late in the cycle, and where is pricing? When will each correct?
+[1.4,5.4] 6. Valuation
+[4.9,5.4] Prices often overreact to a dislocation, opening buying opportunities.
+[8.8,5.4] How far have prices moved? Do they fully reflect the dislocation? Are high-quality assets trading below intrinsic value?
+[1.6,6.0] 7. Opportunity
+[4.9,6.0] Dislocation, cycle timing, price against value, and proprietary sourcing together produce favorable risk-adjusted returns.
+[8.8,6.0] Which markets and property types have overcorrected relative to a temporary dislocation? Where does REALM have an edge? Which position in the capital stack fits the dislocation?
+
+=== 19
+[0.7,0.3] 09
+[0.7,0.5] The REALM Advantage
+[0.7,1.1] REALM gives the nation's leading families the strength of Family Capital at scale, with each investment built around what the family values and each relationship built to last across generations.
+[0.7,2.1] BUILT INTENTIONALLY FOR FAMILY CAPITAL
+[9.2,2.1] GROUND-LEVEL MARKET INSIGHT
+[0.7,2.5] REALM was built by Family Capital, for Family Capital, and serves families first. Each structure is built around the family's tax position, holding period objectives, and the generations that follow, and each family invests alongside families who share its priorities.
+[8.8,2.5] Operating partners, local brokers, and families who own property across REALM's markets see shifts in leasing and pricing before published reports. The REALM Factor Framework turns that insight into a read on each dislocation, and REALM looks for quality real estate trading below intrinsic value.
+[5.5,3.6] Family Capital. / At Scale.
+[0.7,3.7] FAMILY CAPITAL AT SCALE
+[9.2,3.7] ONE RELATIONSHIP ACROSS THE LIFECYCLE
+[0.7,4.1] The equity REALM's families commit together lets REALM compete for middle-market transactions, finance at the portfolio level, and close with certainty, while each family still chooses its investments and reaches the team directly.
+[8.8,4.1] Strategy, sourcing, structuring, management, and the transfer to heirs sit with one team, so a family's real estate is managed as a single portfolio with clear accountability from acquisition to transfer.
+[0.7,5.2] PROPRIETARY INVESTMENT OPPORTUNITIES
+[9.2,5.2] A NETWORK OF LIKE-MINDED PEERS
+[0.7,5.6] Opportunities come from operating partners, brokers, and the families themselves, often before a marketed sale, because owners and operators bring deals to capital that closes.
+[8.8,5.6] REALM brings its families together to share perspectives, knowledge, and values within the network and across the next generation, so what one family sees on the ground informs the next family's decision.
+
+=== 20
+[0.7,0.3] 09    THE REALM ADVANTAGE
+[0.7,0.5] The Fund Model and REALM
+[0.7,1.3] The Fund Model
+[7.5,1.3] REALM
+[0.7,1.9] Minimal investment from principals
+[4.9,1.9] ALIGNMENT
+[7.8,1.9] Paid mainly on performance, after families receive their preferred return and their capital back
+[0.7,2.2] Commingled fund structure
+[4.9,2.2] CONTROL
+[7.8,2.2] Families choose deal by deal through REALM Direct, or decline deals inside the series vehicle
+[0.7,2.6] Full fees and a double promote
+[4.9,2.6] FEES
+[7.8,2.6] Lower fees and no double promote
+[0.7,3.0] Locked up for the life of the fund
+[4.9,3.0] LIQUIDITY
+[7.8,3.0] Investments chosen one at a time, with an evergreen income strategy in development
+[0.7,3.3] Backward-looking and data-driven
+[4.9,3.3] OPPORTUNITY ASSESSMENT
+[7.8,3.3] Forward-looking: the REALM Factor Framework reads dislocation and trends
+[0.7,3.7] Narrowly targeted by property type and geography
+[4.9,3.7] DIVERSIFICATION
+[7.8,3.7] Broad, across property types and geographies
+[0.7,4.1] None
+[4.9,4.1] PERSONAL RELATIONSHIP
+[7.8,4.1] Direct access to the team
+[0.7,4.4] Built largely for tax-exempt investors
+[4.9,4.4] TAX
+[7.8,4.4] Built around each family's tax position
+[0.7,4.8] Large checks set by fund size and the fee model
+[4.9,4.8] TARGET DEALS
+[7.8,4.8] Middle-market transactions that large funds overlook
+[0.7,5.2] Not offered
+[4.9,5.2] ADVICE
+[7.8,5.2] Real estate allocation advice, portfolio reviews, and a second opinion on opportunities families bring in
+[0.7,5.6] Not offered
+[4.9,5.6] 1031 EXCHANGES
+[7.8,5.6] Yes, through tenancy-in-common interests in REALM investments
+[0.7,5.9] Not shared
+[4.9,5.9] INTELLIGENCE
+[7.8,5.9] The ground-level read of REALM's families and operating partners, shared back with them
+[0.7,6.3] Limited
+[4.9,6.3] TRANSPARENCY
+[7.8,6.3] Each asset reported against its original underwriting, good news and bad
+
+=== 21
+[0.7,0.4] 10
+[0.7,0.7] Proof Points
+[5.2,0.8] FAMILIES
+[9.2,0.8] PORTFOLIO
+[9.2,1.4] 43
+[5.2,1.7] +100 families
+[0.7,2.3] TRACK RECORD
+[0.7,2.6] +$6 billion
+[5.2,2.8] The nation's most successful families, investing through single-family offices, multi-family offices, and directly as principals.
+[9.2,2.8] active investments with a combined fair market value of nearly $600 million (Q2 2026).
+[5.2,4.2] 88%
+[9.2,4.2] 30%
+[0.7,4.4] of completed real estate transactions by REALM's principals and partners, including transactions at prior entities before REALM's founding in 2019.
+[5.2,5.2] Most of REALM's families arrived through an introduction from an existing investor (88%, early 2026).
+[9.2,5.2] A portfolio-wide loan-to-value of 30% (Q2 2026).
+
+=== 22
+[0.7,0.5] 11    CASE STUDIES
+[0.7,0.8] Value Through Dislocation
+[1.0,1.6] CitySpire, Midtown Manhattan
+[0.7,2.1] $130 million
+[2.9,2.1] 8.5% in-place cap rate
+[5.2,2.1] 99% leased
+[0.7,3.4] 01
+[1.2,3.4] SITUATION
+[3.0,3.4] 02
+[3.5,3.4] ACTION
+[5.4,3.4] 03
+[5.9,3.4] VALUE CREATED
+[0.7,4.0] Institutional capital had left Manhattan office even as Midtown leasing recovered, leaving well-leased buildings priced for distress. One of them, a 24-floor Class A office condominium three blocks from Central Park, 99% leased, was held in a complex REIT structure that had to be unwound.
+[3.0,4.0] REALM acquired the 377,452-square-foot property with an operating partner in May 2026 for $130 million, or $344 per square foot, and unwound the REIT structure at closing, with REALM's families funding the full equity requirement.
+[5.4,4.0] Working through the REIT structure allowed REALM to acquire at an 8.5% in-place cap rate, against 6.0% to 6.5% for comparable Class A Midtown properties, and at a total basis of $377 per square foot against $389 underwritten. Early leasing and renewals have run 16% above underwriting, the projected 2026 cash-on-cash yield is 9.1%, and REALM rates the asset out-performing.
+[0.7,6.4] Figures are as of August 2026 unless dated otherwise, and forward-looking figures are marked as projected.
+
+=== 23
+[0.7,0.5] 11    CASE STUDIES
+[0.7,0.8] Value Through Basis
+[1.0,1.6] 4696 Willow, Pleasanton, California
+[0.7,2.1] $8.5 million
+[3.2,2.1] $199 per square foot
+[5.6,2.1] One-quarter of replacement cost
+[0.7,3.4] 01
+[1.2,3.4] SITUATION
+[3.3,3.4] 02
+[3.8,3.4] ACTION
+[5.8,3.4] 03
+[6.3,3.4] VALUE CREATED
+[0.7,4.0] Buyers had stepped away from life science real estate, and even a well-equipped vacant building drew little competition. A 42,620-square-foot biomanufacturing facility in Pleasanton came to market empty but move-in ready, with more than $14 million of specialized improvements in place.
+[3.3,4.0] REALM acquired the property with an operating partner in September 2025 for $8.5 million, or $199 per square foot, roughly one-quarter of replacement cost, with the seller financing half of the price, and began marketing the building for lease the following quarter.
+[5.8,4.0] The low basis lets REALM offer a turnkey facility on terms a new building cannot match.
+[0.7,6.4] Figures are as of August 2026 unless dated otherwise, and forward-looking figures are marked as projected.
+NOTES: The two panels beside the text are abstract brand texture, not the property. They hold the place of: 4696 Willow, Pleasanton, California. Replace with property photography when available.
+
+=== 24
+[5.2,0.5] 11    CASE STUDIES
+[5.2,0.8] Value Through Aggregation
+[5.6,1.6] Manufactured housing, North Carolina
+[5.2,2.1] 11 communities
+[7.7,2.1] 649 lots
+[10.2,2.1] $42,300 per lot
+[5.2,3.4] 01
+[5.8,3.4] SITUATION
+[7.8,3.4] 02
+[8.3,3.4] ACTION
+[10.4,3.4] 03
+[10.9,3.4] VALUE CREATED
+[5.2,4.0] Manufactured housing is owned one community at a time: ownership is fragmented, few sales are brokered, and the country adds roughly 1,700 new lots a year against 420,000 apartments. Institutional buyers pay a premium for portfolios already assembled and stabilized.
+[7.8,4.0] REALM entered the sector in October 2024 through a programmatic joint venture with a local operating partner, sourcing communities ahead of competitive bidding and applying one plan to each: move lot rents to market, sell park-owned homes to residents, and fill vacant lots.
+[10.4,4.0] The venture owns 11 communities and 649 lots at a basis of $42,300 per lot, against an average of $83,375 per lot in recent comparable sales (September 2026). In the first portfolio, in Raleigh, lot rents have risen 11%, 39 homes have been sold to residents against 23 underwritten, and an appraisal of $12.3 million against a $9.4 million basis supported a refinancing after 18 months, more than two years ahead of plan. Net operating income stands at 97% of underwriting.
+[5.2,6.4] Figures are as of August 2026 unless dated otherwise, and forward-looking figures are marked as projected.
+NOTES: The two panels beside the text are abstract brand texture, not the property. They hold the place of: Manufactured housing, North Carolina. Replace with property photography when available.
+
+=== 25
+[0.7,0.5] 11    CASE STUDIES
+[0.7,0.8] Value Through Patience
+[1.0,1.6] Commercial land, Inland Empire, California
+[0.7,2.1] 54-acre commercial site
+[3.2,2.1] $12.7 million
+[5.6,2.1] Entirely with equity
+[0.7,3.4] 01
+[1.2,3.4] SITUATION
+[3.3,3.4] 02
+[3.8,3.4] ACTION
+[5.8,3.4] 03
+[6.3,3.4] VALUE CREATED
+[0.7,4.0] Land earns no income while its value matures, so owners who borrow against a site often must sell on a lender's schedule. A 54-acre commercial site in the Inland Empire, with freeway frontage and retail approvals, was available at $5.39 per square foot against a comparable sale above $31.
+[3.3,4.0] REALM acquired the site with an operating partner in February 2024 for $12.7 million, entirely with equity, and has carried the land without debt since. REALM kept the existing approvals in place to preserve the widest pool of buyers while two large developments nearby add roads and demand around the site.
+[5.8,4.0] With no loan to repay, REALM sets the timing of the sale. The venture has returned $1.3 million of reserves to investors, and REALM rates the asset on track against an original underwriting that assumes a sale in 2028 at roughly $25 per square foot (projected).
+[0.7,6.4] Figures are as of August 2026 unless dated otherwise, and forward-looking figures are marked as projected.
+NOTES: The two panels beside the text are abstract brand texture, not the property. They hold the place of: Commercial land, Inland Empire, California. Replace with property photography when available.
+
+=== 26
+[5.2,0.5] 11    CASE STUDIES
+[5.2,0.8] Value Through Asset Management
+[5.6,1.6] Advanced manufacturing facility, outside Boston
+[5.2,2.1] $9.0 million
+[8.9,2.1] 8.5% going-in cap rate
+[5.2,3.4] 01
+[5.8,3.4] SITUATION
+[7.8,3.4] 02
+[8.3,3.4] ACTION
+[10.4,3.4] 03
+[10.9,3.4] VALUE CREATED
+[5.2,4.0] A building with a below-market lease near expiry sells at a discount, because buyers price in the risk of a vacancy. A 54,000-square-foot advanced manufacturing facility outside Boston, home to the same government-affiliated tenant since 2007, carried such a lease, expiring in 2027.
+[7.8,4.0] REALM acquired the property off-market in June 2024 for $9.0 million, entirely with equity, at an 8.5% going-in cap rate, and opened renewal discussions with the tenant well ahead of the expiry.
+[10.4,4.0] The renewal rents under discussion are 40% above underwriting, and REALM has raised its exit assumption from $249 to $280 per square foot (projected).
+[5.2,6.4] Figures are as of August 2026 unless dated otherwise, and forward-looking figures are marked as projected.
+NOTES: The two panels beside the text are abstract brand texture, not the property. They hold the place of: Advanced manufacturing facility, outside Boston. Replace with property photography when available.
+
+=== 27
+[0.7,0.5] 11    CASE STUDIES
+[0.7,0.8] Value Through Judgment
+[0.7,1.6] An acquisition REALM declined, San Jose
+[0.7,2.1] One-fifth of the cost to build
+[4.4,2.1] $43 million of equity
+[0.7,3.4] 01
+[1.2,3.4] SITUATION
+[3.3,3.4] 02
+[3.8,3.4] ACTION
+[5.8,3.4] 03
+[6.3,3.4] VALUE CREATED
+[0.7,4.0] A downtown San Jose office campus was offered in a distressed sale at roughly one-fifth of the cost to build. The largest tenant held a quarter of the space and had not signed a lease renewal. Other buyers were bidding, and the seller wanted deposits made non-refundable before the tenant signed.
+[3.3,4.0] REALM made the renewal a condition of its deposit becoming non-refundable, held to that condition through the process, and withdrew when the seller declined. REALM then told its investors what happened and why.
+[5.8,4.0] REALM kept roughly $43 million of equity out of an investment that depended on a renewal the tenant had not signed. Another buyer closed the transaction, and REALM's investors responded positively when REALM explained the decision.
+[0.7,6.4] Figures are as of August 2026 unless dated otherwise, and forward-looking figures are marked as projected.
+NOTES: The two panels beside the text are abstract brand texture, not the property. They hold the place of: Market image (property unnamed). Replace with property photography when available.
+
+=== 28
+[5.2,0.5] 11    CASE STUDIES
+[5.2,0.8] Value Through Advice
+[5.2,1.6] A third-generation family
+[5.2,2.2] 01
+[5.8,2.2] SITUATION
+[7.8,2.2] 02
+[8.3,2.2] ACTION
+[10.4,2.2] 03
+[10.9,2.2] VALUE CREATED
+[5.2,2.9] Families who built their wealth in an operating business often take on real estate projects of their own without a team to evaluate them. A third-generation family in the energy business, with little experience in real estate, began pursuing a townhome development and then an undeveloped retail site.
+[7.8,2.9] REALM worked as an extension of the family office, advising on structure, environmental studies, site access, and diligence for each project.
+[10.4,2.9] The family gained the judgment of an experienced real estate team on projects outside its own expertise, without building that team in-house. The family continues to bring new projects to REALM, and the relationship now extends from the investments REALM offers to the real estate the family develops on its own.
+[5.2,6.4] Figures are as of August 2026 unless dated otherwise, and forward-looking figures are marked as projected.
+NOTES: The two panels beside the text are abstract brand texture, not the property. They hold the place of: Illustrative image (family unnamed). Replace with property photography when available.
+
+=== 29
+[0.7,0.3] 12
+[0.7,0.5] The Founding Story
+[0.7,1.2] REALM began with a conviction: Family Capital deserves real estate investment built intentionally for what families value.
+[1.1,2.0] REALM's founders came to that conviction as owners.
+[6.8,2.0] One introduction led to the next. Today REALM partners with the nation's most successful families, the great majority introduced by a family they already knew, and many now bring the next generation to the table.
+[9.9,2.5] The founding conviction still sets REALM's standard: families come first in every structure, every report, and every decision about what to buy and when to sell, and every family that joins strengthens the whole.
+[4.0,4.7] In 2019 they built REALM to invest the way their own families wanted to invest.
+
+=== 30
+[0.7,0.3] 13
+[0.7,0.5] Leadership Bios
+[2.5,1.4] TRAVIS / KING
+[6.5,1.4] GREG / DRAKOS
+[10.6,1.4] WILL / MOYER
+[0.7,3.3] FOUNDER AND CEO
+[4.7,3.3] CHIEF OPERATING OFFICER
+[8.8,3.3] PRINCIPAL
+[0.7,3.8] Travis King is the Founder and CEO of REALM, where he oversees the firm with a focus on culture, strategy, and investments. / Before founding REALM, he spent nearly a decade as co-founder and CEO of Brixton Capital, a private investment firm. / He has more than $3.7 billion of transactional experience over 25 years across industrial, office, multifamily, hospitality, and retail real estate. / He graduated magna cum laude and Phi Beta Kappa from the University of California, San Diego, and holds an MBA from Harvard Business School.
+[4.7,3.8] Greg Drakos is Chief Operating Officer of REALM, where he leads the firm's operations and infrastructure and works across its investment strategies. / Before REALM, he was Managing Partner of Cross Real Estate Investors and spent nearly seven years at Carrington, first as a portfolio manager at Carrington Capital Management and later as Executive Vice President of the Special Situations Group at Carrington Holding Company. / Earlier, he worked in leveraged finance investment banking at Merrill Lynch. / He is a graduate of Cornell University.
+[8.8,3.8] Will Moyer is a Principal at REALM, where he manages the firm's external relationships with investor families and operating partners. / Before REALM, he spent nearly nine years in a leadership role at Stand Together Chamber of Commerce. / He holds a Bachelor of Arts in Political Science and Entrepreneurship from Grove City College.
+[0.9,6.0] TEAM
+[2.3,6.0] REALM's team has decades of experience successfully managing capital over multiple cycles, throughout the capital stack, and across property types, geographies and risk profiles.
+
+=== 31
+[3.6,2.7] Family Capital. / At Scale.
+[4.2,4.3] Real estate investment management built intentionally for the nation's leading families.
+[3.6,5.3] REALM is headquartered in Nashville, with offices in San Diego and New York.
+[3.6,5.7] info@REALMLP.com   |   (615) 465-6020   |   www.realmlp.com

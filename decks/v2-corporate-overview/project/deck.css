@@ -1,0 +1,157 @@
+/* REALM · Bold ("At Scale").
+   GRID (see the hidden "Guides" slide): 1920 × 1080 canvas, margins 128 left/right/top, content area 1664 × 792,
+   12 columns of 102 px with 40 px gutters (column pitch 142 px). Column n starts at x = 128 + (n − 1) × 142.
+   Footer row: 36 px tall, 64 px from the bottom edge. Every layout below spans whole columns.
+   Paper and Harbor carry the deck; Juniper is the one accent. No eyebrows: size and weight do the work. */
+:root {
+  --paper: #F6F3EE;
+  --harbor: #1D2430;
+  --juniper: #818A75;
+  --stone: #B5B1AB;
+  --slate: #8693A6;
+  --body: #5E6269;
+  --muted: #75716B;
+  --mist: #E7E3DC;
+  --ondark: #B9BFC8;
+}
+
+body { font-family: 'Geist', Arial, sans-serif; color: #1D2430; }
+
+section {
+  background: var(--paper);
+  color: var(--harbor);
+  font-family: 'Geist', Arial, sans-serif;
+  font-size: 26px;
+  padding: 128px 128px 160px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  counter-increment: page;
+}
+section.dark { background: var(--harbor); color: var(--paper); }
+
+/* the 12-column grid, shared by every layout container */
+.grid12 { display: grid; grid-template-columns: repeat(12, 102px); column-gap: 40px; }
+
+/* type scale: 120 / 72 / 56 / 28 / 24 */
+.display { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 120px; line-height: 1.0; letter-spacing: -2px; margin: 0; }
+.title { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 72px; line-height: 1.04; letter-spacing: -1px; margin: 0; }
+.title-s { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 56px; line-height: 1.08; letter-spacing: -0.5px; margin: 0; }
+.lede { font-size: 28px; line-height: 1.45; color: var(--body); margin: 0; }
+.caption { font-size: 24px; line-height: 1.45; color: var(--muted); margin: 0; }
+.dark .lede { color: var(--ondark); }
+.dark .caption { color: var(--ondark); }
+
+/* full-bleed layers: a whole (uncropped) image underneath, a vector layer on top */
+.backdrop { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.vec { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.tex-band { position: absolute; left: 1300px; top: 0; width: 620px; height: 1080px; object-fit: cover; }
+
+/* title band: title cols 1–7, lede cols 9–12 */
+.band { display: grid; grid-template-columns: repeat(12, 102px); column-gap: 40px; align-items: start; }
+.band .title { grid-column: 1 / 8; }
+.band .lede { grid-column: 9 / 13; padding-top: 14px; }
+
+.spacer { flex: 1; }
+
+/* footer: the same row on every slide (Slides has no master, so it lives here, in one place) */
+.foot { position: absolute; left: 128px; bottom: 64px; width: 1664px; height: 36px; display: flex; justify-content: space-between; align-items: center; }
+.foot-logo { width: 71px; height: 36px; object-fit: contain; }
+.pnum::after { content: counter(page); font-size: 24px; color: var(--muted); }
+.dark .pnum::after { color: var(--ondark); }
+
+/* cover */
+.cover-stack { display: flex; flex-direction: column; justify-content: center; gap: 56px; height: 100%; width: 812px; }
+.cover-logo { width: 600px; height: 303px; object-fit: contain; }
+.cover-line { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 72px; line-height: 1.04; letter-spacing: -1px; margin: 0; }
+
+/* who: statement cols 1–7, facts cols 9–12 */
+.statement-grid { display: grid; grid-template-columns: repeat(12, 102px); grid-template-rows: 1fr; column-gap: 40px; height: 100%; }
+.statement-left { grid-column: 1 / 8; display: flex; flex-direction: column; justify-content: space-between; }
+.statement-left .lede { width: 670px; }
+.big-title { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 104px; line-height: 1.0; letter-spacing: -2px; margin: 0; }
+.facts-stack { grid-column: 9 / 13; display: flex; flex-direction: column; justify-content: flex-end; gap: 40px; }
+.fact { border-top: 3px solid var(--juniper); padding-top: 28px; display: flex; flex-direction: column; gap: 12px; }
+.fact-value { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 56px; line-height: 1.08; margin: 0; }
+
+/* gap: full photo in a panel that ends at the col-6 edge (x 940), argument cols 7–12 */
+.window-left { position: absolute; left: 0; top: 0; width: 940px; height: 1080px; object-fit: cover; }
+.window-vec { position: absolute; left: 0; top: 0; width: 940px; height: 1080px; }
+.split { display: grid; grid-template-columns: repeat(12, 102px); grid-template-rows: 1fr; column-gap: 40px; height: 100%; }
+.split-right { grid-column: 7 / 13; display: flex; flex-direction: column; justify-content: center; gap: 44px; }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.pair-item { border-top: 3px solid var(--juniper); padding-top: 24px; display: flex; flex-direction: column; gap: 10px; }
+.pair-num { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 72px; line-height: 1; margin: 0; }
+
+/* numbers: title cols 1–5, 2×2 cols 7–12 (each figure 3 columns) */
+.kpi-wrap { display: grid; grid-template-columns: repeat(12, 102px); grid-template-rows: 1fr; column-gap: 40px; height: 100%; }
+.kpi-left { grid-column: 1 / 6; display: flex; flex-direction: column; gap: 28px; }
+.kpi-right { grid-column: 7 / 13; display: flex; flex-direction: column; justify-content: flex-end; }
+.kpis-2x2 { display: grid; grid-template-columns: 1fr 1fr; gap: 56px 40px; }
+.kpi { border-top: 3px solid var(--juniper); padding-top: 32px; display: flex; flex-direction: column; gap: 20px; }
+.kpi-num { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 100px; line-height: 1; letter-spacing: -2px; margin: 0; }
+.kpi-cap { font-size: 26px; line-height: 1.4; color: var(--body); margin: 0; }
+.dark .kpi-cap { color: var(--ondark); }
+
+/* capital: copy cols 1–6, rings cols 7–12 */
+.rings { position: absolute; left: 980px; top: 149px; width: 812px; height: 803px; }
+.cap-left { display: flex; flex-direction: column; justify-content: space-between; height: 100%; width: 812px; }
+.mega { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 260px; line-height: 0.9; letter-spacing: -6px; margin: 0; }
+.dollar { color: var(--slate); }
+.ring-label { position: absolute; left: 1186px; width: 400px; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.ring-year { font-size: 24px; line-height: 1.3; color: var(--ondark); margin: 0; text-align: center; }
+.ring-value { font-size: 48px; font-weight: 300; line-height: 1.1; color: var(--paper); margin: 0; text-align: center; }
+
+/* stacked heading, cols 1–7 */
+.head { display: flex; flex-direction: column; gap: 24px; width: 954px; }
+
+/* how: ruled rows, title cols 1–5, text cols 6–12 */
+.rows { display: flex; flex-direction: column; }
+.row { display: grid; grid-template-columns: repeat(12, 102px); column-gap: 40px; border-top: 1px solid var(--stone); padding: 32px 0; align-items: baseline; }
+.row.last { border-bottom: 1px solid var(--stone); }
+.row-title { grid-column: 1 / 6; font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 48px; line-height: 1.1; margin: 0; }
+.row-text { grid-column: 6 / 13; font-size: 28px; line-height: 1.45; color: var(--body); margin: 0; }
+
+/* divider */
+.wire { position: absolute; left: 999px; top: 0; width: 921px; height: 1080px; }
+.divider-stack { display: flex; flex-direction: column; justify-content: flex-end; height: 100%; width: 954px; }
+.divider-stack.top { justify-content: flex-start; }
+
+/* where: list cols 1–7, photo cols 9–12 */
+.where { display: grid; grid-template-columns: repeat(12, 102px); grid-template-rows: 1fr; column-gap: 40px; height: 100%; }
+.where-left { grid-column: 1 / 8; display: flex; flex-direction: column; gap: 24px; }
+.markets { display: flex; flex-direction: column; }
+.market { display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid var(--stone); padding: 18px 0; }
+.market.last { border-bottom: 1px solid var(--stone); }
+.market-name { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 40px; line-height: 1.15; margin: 0; }
+.market-type { font-size: 24px; color: var(--muted); margin: 0; }
+.where-img { grid-column: 9 / 13; width: 528px; height: 792px; object-fit: cover; }
+
+/* leaders: copy cols 1–4, portraits cols 5–12 (each 2⅔ columns, 40 px gutters) */
+.leaders-wrap { display: grid; grid-template-columns: repeat(12, 102px); grid-template-rows: 1fr; column-gap: 40px; height: 100%; }
+.leaders-left { grid-column: 1 / 5; display: flex; flex-direction: column; gap: 28px; }
+.people-3 { grid-column: 5 / 13; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px; align-items: start; }
+.person { display: flex; flex-direction: column; gap: 12px; }
+.portrait { height: 420px; background: var(--mist); display: flex; align-items: flex-end; padding: 24px; box-sizing: border-box; margin-bottom: 12px; }
+.person-name { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 44px; line-height: 1.05; margin: 0; }
+.person-bio { font-size: 24px; line-height: 1.45; color: var(--body); margin: 0; }
+
+/* process: a line with four stops, each stop 3 columns */
+.timeline { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 40px; border-top: 1px solid var(--stone); }
+.tl-step { display: flex; flex-direction: column; gap: 18px; }
+.tl-dot { width: 22px; height: 22px; border-radius: 11px; background: var(--juniper); margin-top: -12px; }
+.step-title { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 44px; line-height: 1.1; margin: 0; }
+.step-text { font-size: 24px; line-height: 1.45; color: var(--body); margin: 0; }
+
+/* close */
+.close-stack { display: flex; flex-direction: column; justify-content: space-between; height: 100%; width: 954px; }
+.close-logo { width: 520px; height: 262px; object-fit: contain; }
+
+/* guides slide (hidden from the presentation) */
+.g-host { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.g-col { position: absolute; top: 0; width: 102px; height: 1080px; background: #818A7521; }
+.g-v { position: absolute; top: 0; width: 0; height: 1080px; border-left: 2px dashed #E8763A; }
+.g-h { position: absolute; left: 0; width: 1920px; height: 0; border-top: 2px dashed #E8763A; }
+.g-mid-v { position: absolute; top: 0; width: 0; height: 1080px; border-left: 2px dashed #E3B341; }
+.g-mid-h { position: absolute; left: 0; width: 1920px; height: 0; border-top: 2px dashed #E3B341; }
+.g-note { display: flex; flex-direction: column; gap: 12px; width: 954px; }
