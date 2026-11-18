@@ -21,7 +21,7 @@ v1.4 rounds, in order:
 5. Tables restyled.
 6. Photos regenerated without patterns.
 7. Every artifact comment addressed: spacing, widths, arrows, text length.
-8. Cover rebuilt from v1.3 page 1.
+8. Cover rebuilt from v1.3 page 1. The closing slide stays in the v1.4 design (decided not to rebuild it from v1.3 page 31).
 
 ## 2. How it was done
 
@@ -58,9 +58,8 @@ v1.4 rounds, in order:
    - every projected figure.
 2. **Portraits.** The leadership slide needs real photos. No portraits were generated, on purpose.
 3. **Case-study photos.** All seven are illustrative Magnific images. Replace them with the real properties.
-4. **Closing slide.** It could also be rebuilt from v1.3 page 31, as the cover was. Not decided.
-5. **Fonts.** Not in the repo (licence). Install them locally to preview.
-6. **v1 assets.** Seven v1 images exist only in the v1 artifact. The v1 deck's local preview shows gaps.
+4. **Fonts.** Not in the repo (licence). Install them locally to preview.
+5. **v1 assets.** Seven v1 images exist only in the v1 artifact. The v1 deck's local preview shows gaps.
 
 ## 5. How to continue
 
