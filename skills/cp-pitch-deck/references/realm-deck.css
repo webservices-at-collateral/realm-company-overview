@@ -1,0 +1,288 @@
+/* REALM Company Overview v1.4 · colour pass. Bold ("At Scale") palette: Paper and Harbor carry the deck, Slate is the working accent,
+   Stone draws the rules. Juniper is NOT used here: it is the brand's tertiary accent (buttons, rings), kept for set moments.
+   Logos flat, single colour: all-Harbor on light, all-white on dark. Images come in the next pass.
+   GRID: 1920 × 1080 = 13.333 × 7.5 in. Margins: sides 88 px (44 pt), top 72 px (36 pt). 12 columns of 116 px, 32 px gutters
+   (pitch 148): column n starts at x = 88 + (n − 1) × 148; a span of k columns is 148k − 32 px wide. Content width 1744.
+   CONTENT: y 72 to 960. FOOTER: one 30 px row inside the bottom margin (y 1006 to 1036): logo, section, page.
+   v1.3 spent ~0.9 in on a numbered eyebrow at the top and a tall footer band; both are gone, the section name lives in the footer.
+   TYPE: Sentient Light (display) + Geist (text). Scale 120 / 72 / 48 / 28 / 24 (block headings in Sentient 28, ledes in Geist 28). Left-aligned. Tabular figures. */
+:root {
+  --paper: #F6F3EE;
+  --harbor: #1D2430;
+  --stone: #B5B1AB;
+  --slate: #8693A6;
+  --bg: var(--paper);
+  --bg2: #ECE7E0;          /* mist: Paper one step toward Stone */
+  --ink: var(--harbor);
+  --body: #4A505A;
+  --muted: #6E6B66;
+  --line: var(--stone);
+  --accent-ink: #55627A;   /* Slate deepened for small text (5.6:1 on Paper) */
+  --slate-tint: #DCE1E8;
+  --slate-mid: #B7C0CD;
+  --ph: #DEDAD3;
+  --dark: var(--harbor);
+  --dark2: #2A3342;        /* one step lighter than Harbor */
+  --ondark: #B9BFC8;
+  --darkline: #3B4556;
+}
+
+body { font-family: 'Geist', Arial, sans-serif; color: #1D2430; }
+
+section {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Geist', Arial, sans-serif;
+  font-size: 24px;
+  text-align: left;
+  padding: 72px 88px 120px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  counter-increment: page;
+}
+section.dark { background: var(--dark); color: var(--paper); }
+section.accent { background: var(--slate); color: var(--harbor); }
+.accent .foot-sec, .accent .pnum::after { color: var(--harbor); }
+section.alt { background: var(--bg2); }
+
+/* type */
+.display { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 120px; line-height: 1.0; letter-spacing: -2px; margin: 0; }
+.title { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 72px; line-height: 1.05; letter-spacing: -1px; margin: 0; }
+.h48 { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 48px; line-height: 1.12; margin: 0; }
+.h28 { font-family: 'Sentient', Georgia, serif; font-weight: 400; font-size: 28px; line-height: 1.18; margin: 0; }
+.lede { font-size: 28px; line-height: 1.38; color: var(--body); margin: 0; }
+.body { font-size: 24px; line-height: 1.35; color: var(--body); margin: 0; }
+.caption { font-size: 24px; line-height: 1.35; color: var(--muted); margin: 0; }
+.dark .lede, .dark .body, .dark .caption { color: var(--ondark); }
+.tnum { font-variant-numeric: tabular-nums; }
+.spacer { flex: 1; }
+
+/* placeholders (midfi only) */
+.ph { background: var(--ph); display: flex; align-items: flex-end; padding: 24px; box-sizing: border-box; }
+.ph-label { font-size: 24px; line-height: 1.3; color: var(--muted); margin: 0; }
+.dark .ph { background: var(--dark2); }
+.dark .ph-label { color: var(--ondark); }
+
+/* footer: one slim row inside the bottom margin */
+.foot { position: absolute; left: 88px; bottom: 44px; width: 1744px; height: 30px; display: flex; justify-content: space-between; align-items: center; }
+.foot-l { display: flex; align-items: center; gap: 24px; }
+.foot-logo { width: 66px; height: 30px; object-fit: contain; }
+.foot-sec { font-size: 24px; line-height: 30px; color: var(--muted); margin: 0; white-space: nowrap; }
+.dark .foot-sec { color: var(--ondark); }
+.foot-r { display: flex; align-items: center; gap: 40px; }
+.pnum::after { content: counter(page); font-size: 24px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.dark .pnum::after { color: var(--ondark); }
+/* service stepper for slides 21–25, carried in the footer instead of a top eyebrow row */
+.steps { display: flex; gap: 28px; }
+.st { font-size: 24px; line-height: 30px; color: var(--muted); margin: 0; white-space: nowrap; }
+.st.on { color: var(--ink); font-weight: 600; }
+
+/* 12-column grid */
+.g12 { display: grid; grid-template-columns: repeat(12, 116px); column-gap: 32px; }
+.fill { grid-template-rows: 1fr; height: 100%; }
+
+/* title band: title cols 1–7, lede cols 9–12 */
+.band { display: grid; grid-template-columns: repeat(12, 116px); column-gap: 32px; align-items: start; }
+.band .title { grid-column: 1 / 8; }
+.band .lede { grid-column: 9 / 13; padding-top: 12px; }
+.stack { display: flex; flex-direction: column; gap: 20px; }
+
+/* brand layers (from v2.1): one whole texture image under a vector mask, arcs cut by the edge */
+.tex-band { position: absolute; left: 1300px; top: 0; width: 620px; height: 1080px; object-fit: cover; }
+.vec { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.wire { position: absolute; left: 999px; top: 0; width: 921px; height: 1080px; }
+.tangent { position: absolute; left: 88px; top: 150px; width: 700px; height: 540px; }
+
+/* cover and close */
+.bleed-r { position: absolute; left: 1044px; top: 0; width: 876px; height: 1080px; }
+.cover-stack { display: flex; flex-direction: column; gap: 48px; width: 856px; height: 100%; }
+.cover-logo { width: 400px; height: 180px; object-fit: contain; }
+
+/* disclaimer */
+.disc-text { grid-column: 6 / 13; display: flex; flex-direction: column; gap: 22px; }
+
+/* contents */
+.toc-list { grid-column: 7 / 13; display: flex; flex-direction: column; justify-content: flex-end; }
+.toc-row { display: grid; grid-template-columns: 116px 1fr 80px; column-gap: 32px; align-items: baseline; border-top: 1px solid var(--line); padding: 24px 0; }
+.toc-row.last { border-bottom: 1px solid var(--line); }
+.toc-num { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 48px; line-height: 1; color: var(--accent-ink); margin: 0; font-variant-numeric: tabular-nums; }
+.toc-name { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 48px; line-height: 1.1; margin: 0; }
+.toc-page { font-size: 24px; color: var(--muted); margin: 0; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* module covers */
+.mod-left { grid-column: 1 / 8; display: flex; flex-direction: column; gap: 28px; }
+.mod-num { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 72px; line-height: 1; color: var(--slate); margin: 0; font-variant-numeric: tabular-nums; }
+.mod-right { grid-column: 9 / 13; align-self: end; display: flex; flex-direction: column; background: var(--darkline); margin: 0 -32px; padding: 20px 32px; }  /* #3B4556 panel: the list never sits on the wireframe */
+.mod-row { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; border-top: 1px solid #56627A; padding: 14px 0; }
+.mod-row.last { border-bottom: 1px solid #56627A; }
+.mod-name { font-size: 24px; line-height: 1.3; color: var(--paper); margin: 0; }
+.mod-page { font-size: 24px; line-height: 1.3; color: var(--ondark); margin: 0; font-variant-numeric: tabular-nums; }
+
+/* columns with a rule on top */
+.cols { display: grid; column-gap: 32px; row-gap: 56px; }
+.c3 { grid-template-columns: repeat(3, 1fr); }
+.c4 { grid-template-columns: repeat(4, 1fr); }
+.c5 { grid-template-columns: repeat(5, 1fr); }
+.col { border-top: 2px solid var(--ink); padding-top: 26px; display: flex; flex-direction: column; gap: 16px; }
+.col.thin { border-top: 1px solid var(--line); }
+.idx { font-size: 24px; line-height: 1; color: var(--accent-ink); margin: 0; font-variant-numeric: tabular-nums; }
+
+/* story: beats on one line */
+.beats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; border-top: 1px solid var(--line); }
+.beat { display: flex; flex-direction: column; gap: 18px; padding-top: 26px; }
+.beat-tick { width: 14px; height: 14px; border-radius: 7px; background: var(--slate); margin-top: -33px; margin-bottom: 12px; }
+.beat-text { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 32px; line-height: 1.25; margin: 0; }
+
+/* opportunity: three-part argument */
+.arg-a { grid-column: 1 / 5; display: flex; flex-direction: column; gap: 28px; }
+.arg-b { grid-column: 5 / 9; background: var(--harbor); padding: 40px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+.arg-c { grid-column: 9 / 13; display: flex; flex-direction: column; gap: 28px; }
+.list { display: flex; flex-direction: column; }
+.li { border-top: 1px solid var(--line); padding: 20px 0; }
+.li.last { border-bottom: 1px solid var(--line); }
+
+/* why now: matrix with row labels */
+.mx { display: grid; grid-template-columns: 228px repeat(4, 1fr); column-gap: 32px; }
+.mx.m3 { grid-template-columns: 228px repeat(3, 1fr); }
+.mx-label { border-top: 1px solid var(--line); padding-top: 22px; padding-bottom: 36px; }
+.mx-head { padding-bottom: 28px; display: flex; flex-direction: column; gap: 12px; }
+.mx-cell { border-top: 1px solid var(--line); padding-top: 22px; padding-bottom: 36px; }
+
+/* panel */
+.panel { background: var(--bg2); padding: 32px 40px 36px; display: flex; flex-direction: column; gap: 22px; }
+
+/* definition slide */
+.def-term { grid-column: 1 / 8; }
+.def-text { grid-column: 5 / 13; display: flex; flex-direction: column; justify-content: flex-end; }
+
+/* quadrants */
+.quad { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; row-gap: 64px; }
+.q { border-top: 1px solid var(--line); padding-top: 26px; display: flex; flex-direction: column; gap: 12px; }
+
+/* tables */
+table.t { width: 1744px; font-family: 'Geist', Arial, sans-serif; font-size: 24px; line-height: 1.3; color: var(--body); border-collapse: collapse; }
+table.t th { text-align: left; font-weight: 600; color: var(--ink); padding: 10px 14px; border-bottom: 2px solid var(--ink); }
+table.t td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.t td.k { color: var(--ink); }
+
+/* formula: two lists */
+.f-left { grid-column: 1 / 6; display: flex; flex-direction: column; gap: 8px; }
+.f-right { grid-column: 7 / 13; display: flex; flex-direction: column; gap: 8px; }
+.item { border-top: 1px solid var(--line); padding: 22px 0 24px; display: flex; flex-direction: column; gap: 10px; }
+
+/* three Cs */
+.venn { position: absolute; left: 1000px; top: 120px; width: 820px; height: 820px; }
+.venn-l { position: absolute; width: 300px; text-align: center; font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 36px; line-height: 40px; margin: 0; }
+.venn-c { position: absolute; width: 300px; text-align: center; font-family: 'Sentient', Georgia, serif; font-weight: 400; font-size: 48px; line-height: 52px; margin: 0; }
+
+/* what REALM does: ring */
+.ring { position: absolute; left: 684px; top: 254px; width: 552px; height: 552px; }
+.ring-n { position: absolute; width: 52px; font-size: 24px; line-height: 52px; color: var(--paper); text-align: center; margin: 0; font-variant-numeric: tabular-nums; }
+.ring-c { position: absolute; left: 810px; top: 506px; width: 300px; text-align: center; font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 36px; line-height: 48px; margin: 0; }
+.nlist { grid-column: 9 / 13; display: flex; flex-direction: column; justify-content: center; }
+.nrow { display: grid; grid-template-columns: 48px 1fr; column-gap: 16px; border-top: 1px solid var(--line); padding: 22px 0; align-items: baseline; }
+.nrow.last { border-bottom: 1px solid var(--line); }
+.nnum { font-size: 24px; color: var(--accent-ink); margin: 0; font-variant-numeric: tabular-nums; }
+
+/* advice: ruled rows on the right */
+.rrow { display: grid; grid-template-columns: 412px 1fr; column-gap: 32px; border-top: 1px solid var(--line); padding: 24px 0 26px; }
+.rrow.last { border-bottom: 1px solid var(--line); }
+
+/* intel: hub */
+.hub { display: grid; grid-template-columns: repeat(12, 116px); column-gap: 32px; row-gap: 56px; align-items: center; }
+.hub-item { display: flex; flex-direction: column; gap: 12px; border-top: 1px solid var(--line); padding-top: 24px; }
+.hub-core { grid-column: 5 / 9; grid-row: 1 / 3; justify-self: center; width: 400px; height: 400px; border-radius: 200px; background: var(--slate-tint); display: flex; align-items: center; justify-content: center; padding: 60px; box-sizing: border-box; }
+
+/* structuring: flow bars */
+.bar { background: var(--bg2); padding: 14px 24px; display: flex; gap: 24px; align-items: baseline; }
+.bar.dk { background: var(--dark); }
+.bar.dk .body { color: var(--ondark); }
+
+/* lifecycle stages */
+.stage-top { display: flex; align-items: center; gap: 0; }
+.stage-rule { flex: 1; height: 0; border-top: 2px solid var(--ink); }
+.stage-arrow { width: 28px; height: 16px; background: var(--ink); }
+
+/* how REALM works: five steps getting darker */
+.step-box { padding: 18px 20px; display: flex; gap: 14px; align-items: baseline; }
+.s1 { background: var(--bg2); } .s2 { background: var(--slate-tint); } .s3 { background: var(--slate-mid); }
+.s4 { background: var(--slate); } .s5 { background: var(--harbor); color: var(--paper); }
+.s3 .idx, .s4 .idx { color: var(--harbor); } .s5 .idx { color: var(--ondark); }
+
+/* factor framework */
+.rail { grid-column: 1 / 4; display: flex; flex-direction: column; gap: 24px; }
+.rail-list { display: flex; flex-direction: column; gap: 6px; }
+.rail-i { font-size: 24px; line-height: 1.35; color: var(--muted); margin: 0; }
+.rail-i.on { color: var(--ink); font-weight: 600; }
+.fx { grid-column: 4 / 13; display: flex; flex-direction: column; }
+.fx-row { display: grid; grid-template-columns: 264px 412px 1fr; column-gap: 32px; border-top: 1px solid var(--line); padding: 24px 0 26px; }
+.fx-row.head { border-top: none; padding: 0 0 12px; }
+.fx-row.last { border-bottom: 1px solid var(--line); }
+
+/* proof: KPIs */
+.kpi { border-top: 3px solid var(--slate); padding-top: 24px; display: flex; flex-direction: column; gap: 14px; }
+.kpi-num { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 120px; line-height: 1; letter-spacing: -2px; margin: 0; font-variant-numeric: tabular-nums; }
+
+/* case studies: photo window top-right (or top-left), facts top, Situation / Action / Value created across */
+.case-ph-r { position: absolute; left: 976px; top: 0; width: 944px; height: 440px; }
+.case-ph-l { position: absolute; left: 0; top: 0; width: 944px; height: 440px; }
+.case-top { width: 856px; display: flex; flex-direction: column; gap: 22px; }
+.case-top.right { margin-left: 888px; }
+.mets { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 40px; margin-top: 20px; }
+.met { border-top: 1px solid var(--line); padding-top: 18px; }
+.sav { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 56px; }
+.sav-col { border-top: 2px solid var(--ink); padding-top: 24px; display: flex; flex-direction: column; gap: 16px; }
+.sav-col .body { line-height: 1.35; }
+
+/* leadership */
+.people { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 32px; }
+.person { display: flex; flex-direction: column; gap: 22px; }
+.person-head { display: flex; gap: 24px; align-items: flex-end; }
+.portrait { width: 136px; height: 170px; }
+.person .body { line-height: 1.35; }
+
+/* guides slide (hidden) */
+.g-host { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.g-col { position: absolute; top: 0; width: 116px; height: 1080px; background: #8693A626; }
+.g-h { position: absolute; left: 0; width: 1920px; height: 0; border-top: 2px dashed #E8763A; }
+.g-v { position: absolute; top: 0; width: 0; height: 1080px; border-left: 2px dashed #E8763A; }
+.g-foot { position: absolute; left: 88px; top: 1006px; width: 1744px; height: 30px; background: #E3B34155; }
+
+/* photo windows: one whole photograph in a box, no pattern on top, no text on top */
+.win { position: absolute; object-fit: cover; }
+.win-vec { position: absolute; }
+
+/* data tables as div grids (Slides keeps every style here): Harbor header, Sentient first column,
+   REALM's answer always on a light Slate band, so the REALM side reads the same on every comparison */
+.dt { display: flex; flex-direction: column; width: 1744px; }
+.dt-row { display: grid; column-gap: 32px; border-bottom: 1px solid var(--line); align-items: stretch; }
+.dt-row.head { background: var(--harbor); border-bottom: none; }
+.dt-row.z { background: var(--bg2); }
+.cmp { grid-template-columns: 330px 520px 1fr; padding-left: 24px; }
+.cmp-d { grid-template-columns: 360px 540px 1fr; padding-left: 24px; }
+.strat { grid-template-columns: 320px 540px 240px 200px 1fr; padding: 0 24px; }
+.strat .dt-c { padding: 10px 0 12px; }
+.dt-c { padding: 18px 0 20px; }
+.dt-hl { padding: 18px 24px 20px; background: var(--slate-tint); }
+.head .dt-c, .head .dt-hl { padding-top: 14px; padding-bottom: 14px; }
+.head .dt-hl { background: var(--slate); }
+.dt-h { font-size: 24px; line-height: 1.3; font-weight: 600; color: var(--paper); margin: 0; }
+.dt-h.on-slate { color: var(--harbor); }
+.dt-k { font-family: 'Sentient', Georgia, serif; font-weight: 400; font-size: 28px; line-height: 1.18; color: var(--harbor); margin: 0; }
+.dt-t { font-size: 24px; line-height: 1.35; color: var(--body); margin: 0; }
+.dt-t.ink { color: var(--harbor); }
+.dt-t.live { color: var(--harbor); font-weight: 600; }
+
+/* drawn vectors (as in the v1.3 native file): ring-segment glyphs, segmented rings, location pins, quadrant icons */
+.item-h { display: flex; align-items: center; gap: 18px; }
+.glyph { width: 56px; height: 56px; flex: 0 0 auto; }
+.glyph.s { width: 40px; height: 40px; }
+.loc { display: flex; align-items: center; gap: 12px; }
+.pin { width: 22px; height: 28px; flex: 0 0 auto; }
+.q-icon { width: 44px; height: 44px; color: var(--slate); }
+.hub-core.drawn { background: none; position: relative; padding: 0; }
+.hub-label { position: absolute; left: 60px; top: 160px; width: 280px; text-align: center; }
+.seg-n { position: absolute; width: 52px; font-size: 24px; line-height: 52px; text-align: center; margin: 0; font-variant-numeric: tabular-nums; }
+.step-num { font-family: 'Sentient', Georgia, serif; font-weight: 300; font-size: 120px; line-height: 1; letter-spacing: -2px; color: var(--slate-mid); margin: 0; font-variant-numeric: tabular-nums; }
+.step-text { font-size: 26px; line-height: 1.38; color: var(--body); margin: 0; }
